@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/echarts/dist/echarts.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "f12-echarts"
+    }
+  },
+  "defaultProject": "f12-echarts",
+  "cli": {
+    "analytics": "fe380c28-e830-437b-a65a-4d7919ad68ad"
+  }
 }
